@@ -14,7 +14,6 @@ class TicTacToe
   [0,4,8], # Left Top-down diagonal
   [6,4,2]  # Left Bottom-up diagonal
   ]
-end
 
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
