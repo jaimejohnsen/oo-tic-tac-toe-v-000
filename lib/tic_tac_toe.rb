@@ -24,14 +24,14 @@ class TicTacToe
   end
 
   def input_to_index(move)
-  index = move.to_i - 1
-end
+    index = move.to_i - 1
+  end
 
-def move(board, index, value)
-  board[index] = value
-end
+  def move(board, index, value)
+    board[index] = value
+  end
 
-def position_taken?(board, index)
+ def position_taken?(board, index)
     if board[index] == " " or board[index] == "" or board[index] == nil
     false
     else board[index] == "X" or board[index] == "O"
