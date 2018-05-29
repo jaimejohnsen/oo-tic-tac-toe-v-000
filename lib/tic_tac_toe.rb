@@ -57,7 +57,7 @@ end
 
 def turn_count
  counter = 0 
-  board.each do |boardspace|
+  @board.each do |boardspace|
   if boardspace == "X" || boardspace == "O"
           counter += 1 
     end 
