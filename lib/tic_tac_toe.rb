@@ -30,6 +30,8 @@ class TicTacToe
   def move(index, value)
     @board[index] = value
   end
+  
+  
 
  def position_taken?(@board, index)
     if @board[index] == " " or @board[index] == "" or @board[index] == nil
@@ -47,9 +49,7 @@ def valid_move?(board, index)
   end
 end
 
-def position_taken?(board, position)
-  board[position] == "X" || board[position] == "O"
-end
+
 
 def turn(board)
   puts "Please enter 1-9:"
