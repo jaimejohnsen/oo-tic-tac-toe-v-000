@@ -55,7 +55,7 @@ def turn(input_to_index)
 end
 end
 
-def turn_count(board)
+def turn_count
  counter = 0 
   board.each do |boardspace|
   if boardspace == "X" || boardspace == "O"
