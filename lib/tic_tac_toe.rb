@@ -95,11 +95,11 @@ end
 return false
 end
 
-  def full?(board)
-    !board.include? (" ")
+  def full?
+    !@board.include? (" ")
   end 
 
-  def draw?(board)
+  def draw?
     full?(board) && !won?(board)
 end 
 
