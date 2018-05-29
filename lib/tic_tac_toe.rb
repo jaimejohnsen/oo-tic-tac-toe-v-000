@@ -43,7 +43,7 @@ def valid_move?(index)
   end
 end
 
-def turn(input_to_index)
+def turn
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
