@@ -123,7 +123,7 @@ else
 end
 end
 
-  def play(board)
+  def play
    while !over?(board)
     turn(board)
   end
