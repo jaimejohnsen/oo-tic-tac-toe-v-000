@@ -107,9 +107,9 @@ end
   won? || full? || draw?
   end
    
-def winner(board)
- if winner = won?(board) 
-  board[winner[0]]
+def winner
+ if winner = won? 
+  @board[winner[0]]
 else
   nil
 end
